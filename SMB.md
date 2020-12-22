@@ -17,3 +17,4 @@ crackmapexec smb IP -u USER -p pass.txt
 ```
 crackmapexec smb IP -u USER -p PASSWORD --shares
 ```
+
