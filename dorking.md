@@ -78,13 +78,3 @@ X-Original-URL: /admin
 
 HTTP/1.1 200 OK
 ```
-
-## PHP File
-
-```
-http://site.com/file.php
-response = nothing
-
-http://site.com/file.php~
-response = source
-```
